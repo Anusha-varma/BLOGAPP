@@ -1,0 +1,25 @@
+POST  http://localhost:4000/user-api/user
+Content-Type: application/json
+
+{
+    "userType":"user",
+    "username":"ram",
+    "password":"ram",
+    "email":"ram@gmail.com"
+}
+
+###
+POST  http://localhost:4000/user-api/login
+Content-Type: application/json
+
+{
+    "userType":"user",
+    "username":"ram",
+    "password":"ram"
+    
+}
+###
+GET http://localhost:4000/admin-api/test-admin
+
+###
+GET http://localhost:4000/author-api/test-author
